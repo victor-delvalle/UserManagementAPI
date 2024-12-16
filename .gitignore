@@ -1,0 +1,21 @@
+# Ignorar as pastas de build e binário do Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar arquivos de configuração do Visual Studio
+.vs2019/
+.vs2017/
+
+# Ignorar arquivos de log gerados
+*.log
+
+# Ignorar a pasta de pacotes de dependências do NuGet
+.nuget/
+
+# Ignorar a pasta de cache do NPM (caso use Node.js)
+node_modules/
+
+# Ignorar os arquivos temporários do sistema operacional
+Thumbs.db
+Desktop.ini
